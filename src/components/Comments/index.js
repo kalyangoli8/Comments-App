@@ -74,7 +74,7 @@ class Comments extends Component {
     }
 
     this.setState(prevState => ({
-      commentsList: [...prevState.commentList, newcomment],
+      ommentsList: [...prevState.commentsList, newcomment],
       nameInput: '',
       commentInput: '',
     }))
