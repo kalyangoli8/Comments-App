@@ -19,15 +19,15 @@ const CommentItem = props => {
   }
 
   const onDeleteComment = () => {
-    const {deleteCommet} = props
-    deleteCommet(id)
+    const {deleteComment} = props
+    deleteComment(id)
   }
 
   return (
     <li className="comment-item">
       <div className="comment-container">
         <div className={initialClassName}>
-          <p className="time"></p>
+          <p className="initial">{initial}</p>
         </div>
         <div>
           <div className="username-time-container">
