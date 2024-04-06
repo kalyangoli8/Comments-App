@@ -42,9 +42,9 @@ class Comments extends Component {
   }
 
   renderCommentsList = () => {
-    const {commentList} = this.state
+    const {commentsList} = this.state
 
-    return commentList.map(eachComment => (
+    return commentsList.map(eachComment => (
       <CommentItem
         key={eachComment.id}
         commentDetails={eachComment}
